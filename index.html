@@ -9,27 +9,30 @@
 </head>
 <body>
     <h1>TIC TAC TOE</h1>
-    <h2>First player is 'X'</h2>
-    <h2>Second player is 'O'</h2>
-    <h3>Start by clicking a box</h3>
+    <div id ="instructions"> 
+        <h2>First player is 'X'</h2>
+        <h2>Second player is 'O'</h2>
+        <h3>Start by clicking a box</h3>
+    </div>
     <br><br>
     <div id="board">
-            <input type="text" id="square1" class="squares" onclick = "clickSquare1();" readonly>
-            <input type="text" id="square2" class="squares" onclick = "clickSquare2();" readonly>
-            <input type="text" id="square3" class="squares" onclick = "clickSquare3();" readonly>
+            <input type="text" id="square1" class="squares" onclick = "clickSquare1(); winGame();" readonly>
+            <input type="text" id="square2" class="squares" onclick = "clickSquare2(); winGame();" readonly>
+            <input type="text" id="square3" class="squares" onclick = "clickSquare3(); winGame();" readonly>
             <br><br>
-            <input type="text" id="square4" class="squares" onclick = "clickSquare4();" readonly>
-            <input type="text" id="square5" class="squares" onclick = "clickSquare5();" readonly>
-            <input type="text" id="square6" class="squares" onclick = "clickSquare6();" readonly>
+            <input type="text" id="square4" class="squares" onclick = "clickSquare4(); winGame();" readonly>
+            <input type="text" id="square5" class="squares" onclick = "clickSquare5(); winGame();" readonly>
+            <input type="text" id="square6" class="squares" onclick = "clickSquare6(); winGame();" readonly>
             <br><br>
-            <input type="text" id="square7" class="squares" onclick = "clickSquare7();" readonly>
-            <input type="text" id="square8" class="squares" onclick = "clickSquare8();" readonly>
-            <input type="text" id="square9" class="squares" onclick = "clickSquare9();" readonly>
+            <input type="text" id="square7" class="squares" onclick = "clickSquare7(); winGame();" readonly>
+            <input type="text" id="square8" class="squares" onclick = "clickSquare8(); winGame();" readonly>
+            <input type="text" id="square9" class="squares" onclick = "clickSquare9(); winGame();" readonly>
     </div>
     <br><br><br><br>
     <div id="reset">
         <button id="button" onclick="reset()">RESET</button>
     </div>
+    <h2 id="print"></h2>
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,3 +1,41 @@
+function winGame() {
+    var s1, s2, s3, s4, s5, s6, s7, s8, s9;
+   s1 = document.getElementById('square1').value; 
+   s2 = document.getElementById('square2').value; 
+   s3 = document.getElementById('square3').value; 
+   s4 = document.getElementById('square4').value; 
+   s5 = document.getElementById('square5').value; 
+   s6 = document.getElementById('square6').value; 
+   s7 = document.getElementById('square7').value; 
+   s8 = document.getElementById('square8').value; 
+   s9 = document.getElementById('square9').value; 
+
+// Player X win checks
+if ((s1 == 'X') && (s2 == 'X') && (s3 == 'X')) {
+    document.getElementById('print').innerHTML = 'Player X Wins!'
+}
+else if ((s1 == 'X') && (s4 == 'X') && (s7 == 'X')) {
+    document.getElementById('print').innerHTML = 'Player X Wins!'
+}
+else if ((s7 == 'X') && (s8 == 'X') && (s9 == 'X')) {
+    document.getElementById('print').innerHTML = 'Player X Wins!'
+}
+else if ((s3 == 'X') && (s6 == 'X') && (s9 == 'X')) {
+    document.getElementById('print').innerHTML = 'Player X Wins!'
+}
+else if ((s2 == 'X') && (s5 == 'X') && (s8 == 'X')) {
+    document.getElementById('print').innerHTML = 'Player X Wins!'
+}
+else if ((s1 == 'X') && (s5 == 'X') && (s9 == 'X')) {
+    document.getElementById('print').innerHTML = 'Player X Wins!'
+}
+else if ((s3 == 'X') && (s5 == 'X') && (s7 == 'X')) {
+    document.getElementById('print').innerHTML = 'Player X Wins!'
+}
+
+// Player O Win Checks
+
+}
 // reset button function
 function reset() {
     location.reload();
