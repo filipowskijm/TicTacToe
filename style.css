@@ -1,14 +1,14 @@
 body {
     background-color: white;
 }
-h1 {
+h1, h2, h3 {
     text-align: center;
     color: blue;
 }
 #board {
     text-align: center;
 }
-#square1, #square2, #square3, #square4, #square5, #square6, #square7, #square8, #square9 {
+.squares { 
     background-color: grey;
     width: 100px;
     height: 100px;
@@ -16,4 +16,15 @@ h1 {
     border-radius: 10px;
     font-size: 30px;
     text-align: center;
+}
+#reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#button {
+    height: 80px;
+    width: 100px;
+    font-size: 20px;
 }

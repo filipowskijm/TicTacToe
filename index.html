@@ -9,18 +9,26 @@
 </head>
 <body>
     <h1>TIC TAC TOE</h1>
+    <h2>First player is 'X'</h2>
+    <h2>Second player is 'O'</h2>
+    <h3>Start by clicking a box</h3>
+    <br><br>
     <div id="board">
-            <input type="text" id="square1">
-            <input type="text" id="square2">
-            <input type="text" id="square3">
+            <input type="text" id="square1" class="squares" onclick = "clickSquare1();" readonly>
+            <input type="text" id="square2" class="squares">
+            <input type="text" id="square3" class="squares">
             <br><br>
-            <input type="text" id="square4">
-            <input type="text" id="square5">
-            <input type="text" id="square6">
+            <input type="text" id="square4" class="squares">
+            <input type="text" id="square5" class="squares">
+            <input type="text" id="square6" class="squares">
             <br><br>
-            <input type="text" id="square7">
-            <input type="text" id="square8">
-            <input type="text" id="square9">
+            <input type="text" id="square7" class="squares">
+            <input type="text" id="square8" class="squares">
+            <input type="text" id="square9" class="squares">
+    </div>
+    <br><br><br><br>
+    <div id="reset">
+        <button id="button">RESET</button>
     </div>
     <script src="script.js"></script>
 </body>
