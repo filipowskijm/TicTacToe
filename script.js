@@ -1,3 +1,4 @@
+// function to check if game is won
 function winGame() {
     var s1, s2, s3, s4, s5, s6, s7, s8, s9;
    s1 = document.getElementById('square1').value; 
@@ -32,9 +33,34 @@ else if ((s1 == 'X') && (s5 == 'X') && (s9 == 'X')) {
 else if ((s3 == 'X') && (s5 == 'X') && (s7 == 'X')) {
     document.getElementById('print').innerHTML = 'Player X Wins!'
 }
-
+else if ((s4 == 'X') && (s5 == 'X') && (s6 == 'X')) {
+    document.getElementById('print').innerHTML = 'Player X Wins!'
+}
 // Player O Win Checks
-
+else if ((s1 == 'O') && (s2 == 'O') && (s3 == 'O')) {
+    document.getElementById('print').innerHTML = 'Player O Wins!'
+}
+else if ((s1 == 'O') && (s4 == 'O') && (s7 == 'O')) {
+    document.getElementById('print').innerHTML = 'Player O Wins!'
+}
+else if ((s7 == 'O') && (s8 == 'O') && (s9 == 'O')) {
+    document.getElementById('print').innerHTML = 'Player O Wins!'
+}
+else if ((s3 == 'O') && (s6 == 'O') && (s9 == 'O')) {
+    document.getElementById('print').innerHTML = 'Player O Wins!'
+}
+else if ((s2 == 'O') && (s5 == 'O') && (s8 == 'O')) {
+    document.getElementById('print').innerHTML = 'Player O Wins!'
+}
+else if ((s1 == 'O') && (s5 == 'O') && (s9 == 'O')) {
+    document.getElementById('print').innerHTML = 'Player O Wins!'
+}
+else if ((s3 == 'O') && (s5 == 'O') && (s7 == 'O')) {
+    document.getElementById('print').innerHTML = 'Player O Wins!'
+}
+else if ((s4 == 'O') && (s5 == 'O') && (s6 == 'O')) {
+    document.getElementById('print').innerHTML = 'Player O Wins!'
+}
 }
 // reset button function
 function reset() {
