@@ -62,6 +62,11 @@ else if ((s3 == 'O') && (s5 == 'O') && (s7 == 'O')) {
 else if ((s4 == 'O') && (s5 == 'O') && (s6 == 'O')) {
     document.getElementById('print').innerHTML = 'Player O Wins!'
     }
+
+// tie game check
+if ((s1 == 'O' || s1 == 'X') && (s2 == 'O' || s2 == 'X') && (s3 == 'O' || s3 == 'X') && (s4 == 'O' || s4 == 'X') && (s5 == 'O' || s5 == 'X') && (s6 == 'O' || s6 == 'X') && (s7 == 'O' || s7 == 'X') && (s8 == 'O' || s8 == 'X') && (s9 == 'O' || s9 == 'X')) {
+    document.getElementById('print').innerHTML = 'Tie Game!'
+}
 }
 
 // reset button function
