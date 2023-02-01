@@ -13,60 +13,173 @@ function winGame() {
 
 // Player X win checks
 if ((s1 == 'X') && (s2 == 'X') && (s3 == 'X')) {
-    document.getElementById('print').innerHTML = 'Player X Wins!'
+    document.getElementById('print').innerHTML = 'Player X Wins!';
+    document.getElementById('instructions').innerHTML = '';
+    document.getElementById('square4').disabled = true;
+    document.getElementById('square5').disabled = true;
+    document.getElementById('square6').disabled = true;
+    document.getElementById('square7').disabled = true;
+    document.getElementById('square8').disabled = true;
+    document.getElementById('square9').disabled = true;
     }
 else if ((s1 == 'X') && (s4 == 'X') && (s7 == 'X')) {
-    document.getElementById('print').innerHTML = 'Player X Wins!'
+    document.getElementById('print').innerHTML = 'Player X Wins!';
+    document.getElementById('instructions').innerHTML = '';
+    document.getElementById('square2').disabled = true;
+    document.getElementById('square3').disabled = true;
+    document.getElementById('square5').disabled = true;
+    document.getElementById('square6').disabled = true;
+    document.getElementById('square8').disabled = true;
+    document.getElementById('square9').disabled = true;
     }
 else if ((s7 == 'X') && (s8 == 'X') && (s9 == 'X')) {
-    document.getElementById('print').innerHTML = 'Player X Wins!'
+    document.getElementById('print').innerHTML = 'Player X Wins!';
+    document.getElementById('instructions').innerHTML = '';
+    document.getElementById('square1').disabled = true;
+    document.getElementById('square2').disabled = true;
+    document.getElementById('square3').disabled = true;
+    document.getElementById('square4').disabled = true;
+    document.getElementById('square5').disabled = true;
+    document.getElementById('square6').disabled = true;
     }
 else if ((s3 == 'X') && (s6 == 'X') && (s9 == 'X')) {
-    document.getElementById('print').innerHTML = 'Player X Wins!'
+    document.getElementById('print').innerHTML = 'Player X Wins!';
+    document.getElementById('instructions').innerHTML = '';
+    document.getElementById('square1').disabled = true;
+    document.getElementById('square2').disabled = true;
+    document.getElementById('square4').disabled = true;
+    document.getElementById('square5').disabled = true;
+    document.getElementById('square7').disabled = true;
+    document.getElementById('square8').disabled = true;
     }
 else if ((s2 == 'X') && (s5 == 'X') && (s8 == 'X')) {
-    document.getElementById('print').innerHTML = 'Player X Wins!'
+    document.getElementById('print').innerHTML = 'Player X Wins!';
+    document.getElementById('instructions').innerHTML = '';
+    document.getElementById('square1').disabled = true;
+    document.getElementById('square3').disabled = true;
+    document.getElementById('square4').disabled = true;
+    document.getElementById('square6').disabled = true;
+    document.getElementById('square7').disabled = true;
+    document.getElementById('square9').disabled = true;
     }
 else if ((s1 == 'X') && (s5 == 'X') && (s9 == 'X')) {
-    document.getElementById('print').innerHTML = 'Player X Wins!'
+    document.getElementById('print').innerHTML = 'Player X Wins!';
+    document.getElementById('instructions').innerHTML = '';
+    document.getElementById('square2').disabled = true;
+    document.getElementById('square3').disabled = true;
+    document.getElementById('square4').disabled = true;
+    document.getElementById('square6').disabled = true;
+    document.getElementById('square7').disabled = true;
+    document.getElementById('square8').disabled = true;
     }
 else if ((s3 == 'X') && (s5 == 'X') && (s7 == 'X')) {
-    document.getElementById('print').innerHTML = 'Player X Wins!'
+    document.getElementById('print').innerHTML = 'Player X Wins!';
+    document.getElementById('instructions').innerHTML = '';
+    document.getElementById('square1').disabled = true;
+    document.getElementById('square2').disabled = true;
+    document.getElementById('square4').disabled = true;
+    document.getElementById('square6').disabled = true;
+    document.getElementById('square8').disabled = true;
+    document.getElementById('square9').disabled = true;
     }
 else if ((s4 == 'X') && (s5 == 'X') && (s6 == 'X')) {
-    document.getElementById('print').innerHTML = 'Player X Wins!'
+    document.getElementById('print').innerHTML = 'Player X Wins!';
+    document.getElementById('instructions').innerHTML = '';
+    document.getElementById('square1').disabled = true;
+    document.getElementById('square2').disabled = true;
+    document.getElementById('square3').disabled = true;
+    document.getElementById('square7').disabled = true;
+    document.getElementById('square8').disabled = true;
+    document.getElementById('square9').disabled = true;
     }
 
 // Player O Win Checks
 else if ((s1 == 'O') && (s2 == 'O') && (s3 == 'O')) {
-    document.getElementById('print').innerHTML = 'Player O Wins!'
+    document.getElementById('print').innerHTML = 'Player O Wins!';
+    document.getElementById('instructions').innerHTML = '';
+    document.getElementById('square4').disabled = true;
+    document.getElementById('square5').disabled = true;
+    document.getElementById('square6').disabled = true;
+    document.getElementById('square7').disabled = true;
+    document.getElementById('square8').disabled = true;
+    document.getElementById('square9').disabled = true;
     }
 else if ((s1 == 'O') && (s4 == 'O') && (s7 == 'O')) {
-    document.getElementById('print').innerHTML = 'Player O Wins!'
+    document.getElementById('print').innerHTML = 'Player O Wins!';
+    document.getElementById('instructions').innerHTML = '';
+    document.getElementById('square2').disabled = true;
+    document.getElementById('square3').disabled = true;
+    document.getElementById('square5').disabled = true;
+    document.getElementById('square6').disabled = true;
+    document.getElementById('square8').disabled = true;
+    document.getElementById('square9').disabled = true;
     }
 else if ((s7 == 'O') && (s8 == 'O') && (s9 == 'O')) {
-    document.getElementById('print').innerHTML = 'Player O Wins!'
+    document.getElementById('print').innerHTML = 'Player O Wins!';
+    document.getElementById('instructions').innerHTML = '';
+    document.getElementById('square1').disabled = true;
+    document.getElementById('square2').disabled = true;
+    document.getElementById('square3').disabled = true;
+    document.getElementById('square4').disabled = true;
+    document.getElementById('square5').disabled = true;
+    document.getElementById('square6').disabled = true;
     }
 else if ((s3 == 'O') && (s6 == 'O') && (s9 == 'O')) {
-    document.getElementById('print').innerHTML = 'Player O Wins!'
+    document.getElementById('print').innerHTML = 'Player O Wins!';
+    document.getElementById('instructions').innerHTML = '';
+    document.getElementById('square1').disabled = true;
+    document.getElementById('square2').disabled = true;
+    document.getElementById('square4').disabled = true;
+    document.getElementById('square5').disabled = true;
+    document.getElementById('square7').disabled = true;
+    document.getElementById('square8').disabled = true;
     }
 else if ((s2 == 'O') && (s5 == 'O') && (s8 == 'O')) {
-    document.getElementById('print').innerHTML = 'Player O Wins!'
+    document.getElementById('print').innerHTML = 'Player O Wins!';
+    document.getElementById('instructions').innerHTML = '';
+    document.getElementById('square1').disabled = true;
+    document.getElementById('square3').disabled = true;
+    document.getElementById('square4').disabled = true;
+    document.getElementById('square6').disabled = true;
+    document.getElementById('square7').disabled = true;
+    document.getElementById('square9').disabled = true;
     }
 else if ((s1 == 'O') && (s5 == 'O') && (s9 == 'O')) {
-    document.getElementById('print').innerHTML = 'Player O Wins!'
+    document.getElementById('print').innerHTML = 'Player O Wins!';
+    document.getElementById('instructions').innerHTML = '';
+    document.getElementById('square2').disabled = true;
+    document.getElementById('square3').disabled = true;
+    document.getElementById('square4').disabled = true;
+    document.getElementById('square6').disabled = true;
+    document.getElementById('square7').disabled = true;
+    document.getElementById('square8').disabled = true;
     }
 else if ((s3 == 'O') && (s5 == 'O') && (s7 == 'O')) {
-    document.getElementById('print').innerHTML = 'Player O Wins!'
+    document.getElementById('print').innerHTML = 'Player O Wins!';
+    document.getElementById('instructions').innerHTML = '';
+    document.getElementById('square1').disabled = true;
+    document.getElementById('square2').disabled = true;
+    document.getElementById('square4').disabled = true;
+    document.getElementById('square6').disabled = true;
+    document.getElementById('square8').disabled = true;
+    document.getElementById('square9').disabled = true;
     }
 else if ((s4 == 'O') && (s5 == 'O') && (s6 == 'O')) {
-    document.getElementById('print').innerHTML = 'Player O Wins!'
+    document.getElementById('print').innerHTML = 'Player O Wins!';
+    document.getElementById('instructions').innerHTML = '';
+    document.getElementById('square1').disabled = true;
+    document.getElementById('square2').disabled = true;
+    document.getElementById('square3').disabled = true;
+    document.getElementById('square7').disabled = true;
+    document.getElementById('square8').disabled = true;
+    document.getElementById('square9').disabled = true;
     }
 
 // tie game check
 if ((s1 == 'O' || s1 == 'X') && (s2 == 'O' || s2 == 'X') && (s3 == 'O' || s3 == 'X') && (s4 == 'O' || s4 == 'X') && (s5 == 'O' || s5 == 'X') && (s6 == 'O' || s6 == 'X') && (s7 == 'O' || s7 == 'X') && (s8 == 'O' || s8 == 'X') && (s9 == 'O' || s9 == 'X')) {
-    document.getElementById('print').innerHTML = 'Tie Game!'
-}
+    document.getElementById('print').innerHTML = 'Tie Game!';
+    document.getElementById('instructions').innerHTML = '';
+    }
 }
 
 // reset button function
@@ -81,11 +194,13 @@ function clickSquare1() {
         document.getElementById('square1').value = "X";
         document.getElementById('square1').disabled = true;
         turn = 0;
+        document.getElementById('instructions').innerHTML = "PLAYER O TURN";
     }
     else {
         document.getElementById('square1').value = "O";
         document.getElementById('square1').disabled = true;
         turn = 1;
+        document.getElementById('instructions').innerHTML = "PLAYER X TURN";
     }
 }
 function clickSquare2() {
@@ -93,11 +208,13 @@ function clickSquare2() {
         document.getElementById('square2').value = "X";
         document.getElementById('square2').disabled = true;
         turn = 0;
+        document.getElementById('instructions').innerHTML = "PLAYER O TURN";
     }
     else {
         document.getElementById('square2').value = "O";
         document.getElementById('square2').disabled = true;
         turn = 1;
+        document.getElementById('instructions').innerHTML = "PLAYER X TURN";
     }
 }
 function clickSquare3() {
@@ -105,11 +222,13 @@ function clickSquare3() {
         document.getElementById('square3').value = "X";
         document.getElementById('square3').disabled = true;
         turn = 0;
+        document.getElementById('instructions').innerHTML = "PLAYER O TURN";
     }
     else {
         document.getElementById('square3').value = "O";
         document.getElementById('square3').disabled = true;
         turn = 1;
+        document.getElementById('instructions').innerHTML = "PLAYER X TURN";
     }
 }
 function clickSquare4() {
@@ -117,11 +236,13 @@ function clickSquare4() {
         document.getElementById('square4').value = "X";
         document.getElementById('square4').disabled = true;
         turn = 0;
+        document.getElementById('instructions').innerHTML = "PLAYER O TURN";
     }
     else {
         document.getElementById('square4').value = "O";
         document.getElementById('square4').disabled = true;
         turn = 1;
+        document.getElementById('instructions').innerHTML = "PLAYER X TURN";
     }
 }
 function clickSquare5() {
@@ -129,11 +250,13 @@ function clickSquare5() {
         document.getElementById('square5').value = "X";
         document.getElementById('square5').disabled = true;
         turn = 0;
+        document.getElementById('instructions').innerHTML = "PLAYER O TURN";
     }
     else {
         document.getElementById('square5').value = "O";
         document.getElementById('square5').disabled = true;
         turn = 1;
+        document.getElementById('instructions').innerHTML = "PLAYER X TURN";
     }
 }
 function clickSquare6() {
@@ -141,11 +264,13 @@ function clickSquare6() {
         document.getElementById('square6').value = "X";
         document.getElementById('square6').disabled = true;
         turn = 0;
+        document.getElementById('instructions').innerHTML = "PLAYER O TURN";
     }
     else {
         document.getElementById('square6').value = "O";
         document.getElementById('square6').disabled = true;
         turn = 1;
+        document.getElementById('instructions').innerHTML = "PLAYER X TURN";
     }
 }
 function clickSquare7() {
@@ -153,11 +278,13 @@ function clickSquare7() {
         document.getElementById('square7').value = "X";
         document.getElementById('square7').disabled = true;
         turn = 0;
+        document.getElementById('instructions').innerHTML = "PLAYER O TURN";
     }
     else {
         document.getElementById('square7').value = "O";
         document.getElementById('square7').disabled = true;
         turn = 1;
+        document.getElementById('instructions').innerHTML = "PLAYER X TURN";
     }
 }
 function clickSquare8() {
@@ -165,11 +292,13 @@ function clickSquare8() {
         document.getElementById('square8').value = "X";
         document.getElementById('square8').disabled = true;
         turn = 0;
+        document.getElementById('instructions').innerHTML = "PLAYER O TURN";
     }
     else {
         document.getElementById('square8').value = "O";
         document.getElementById('square8').disabled = true;
         turn = 1;
+        document.getElementById('instructions').innerHTML = "PLAYER X TURN";
     }
 }
 function clickSquare9() {
@@ -177,11 +306,13 @@ function clickSquare9() {
         document.getElementById('square9').value = "X";
         document.getElementById('square9').disabled = true;
         turn = 0;
+        document.getElementById('instructions').innerHTML = "PLAYER O TURN";
     }
     else {
         document.getElementById('square9').value = "O";
         document.getElementById('square9').disabled = true;
         turn = 1;
+        document.getElementById('instructions').innerHTML = "PLAYER X TURN";
     }
 }
 
