@@ -1,0 +1,13 @@
+- added pages link to README
+- updated README
+- updated styling
+- added turn text & disabled squares after win in JS
+- added tie game check
+- updated styling
+- added player O win checks
+- added player X win checks function
+- fixed reset button function, added other box click functions
+- added first js function, updated html/css styling
+- making game board
+- adding initial files
+- Initial commit
